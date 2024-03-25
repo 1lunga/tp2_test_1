@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+foot_ball = pd.read_csv("C:/Users/June Gemini/Downloads/dataset - 2020-09-24 (1).csv")
+print(foot_ball[["Nationality","Club"]])
+print(foot_ball.head(10))
+print(foot_ball[["Goals","Appearances"]])
+
